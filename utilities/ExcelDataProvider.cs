@@ -11,7 +11,7 @@ namespace Test_Automation.utilities
     public class ExcelDataProvider
     {
         private string directory;
-        public DataProvider()
+        public ExcelDataProvider()
         {
             directory = Environment.CurrentDirectory + @"\..\..\..\testdata";
         }
