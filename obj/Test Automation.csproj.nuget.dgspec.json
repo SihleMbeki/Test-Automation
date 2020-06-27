@@ -36,6 +36,14 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "DatabaseConnections": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "DatabaseConnections.OleDb": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "ExtentReports.Core": {
               "target": "Package",
               "version": "[1.0.3, )"
@@ -51,6 +59,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.2.0, )"
+            },
+            "WycliffeAssociates.NPOI": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             },
             "coverlet.collector": {
               "target": "Package",
