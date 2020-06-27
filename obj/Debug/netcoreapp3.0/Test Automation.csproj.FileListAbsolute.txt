@@ -1,0 +1,94 @@
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Test Automation.deps.json
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Test Automation.runtimeconfig.json
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Test Automation.runtimeconfig.dev.json
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Test Automation.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Test Automation.pdb
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.CoreUtilities.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.Utilities.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\testhost.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\System.Xml.XPath.XmlDocument.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\obj\Debug\netcoreapp3.0\Test Automation.csprojAssemblyReference.cache
+c:\Users\Sihle\Documents\Audacity\Test Automation\obj\Debug\netcoreapp3.0\Test Automation.csproj.CoreCompileInputs.cache
+c:\Users\Sihle\Documents\Audacity\Test Automation\obj\Debug\netcoreapp3.0\Test Automation.AssemblyInfoInputs.cache
+c:\Users\Sihle\Documents\Audacity\Test Automation\obj\Debug\netcoreapp3.0\Test Automation.AssemblyInfo.cs
+c:\Users\Sihle\Documents\Audacity\Test Automation\obj\Debug\netcoreapp3.0\Test Automation.csproj.CopyComplete
+c:\Users\Sihle\Documents\Audacity\Test Automation\obj\Debug\netcoreapp3.0\Test Automation.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\obj\Debug\netcoreapp3.0\Test Automation.pdb
+c:\Users\Sihle\Documents\Audacity\Test Automation\obj\Debug\netcoreapp3.0\Test Automation.genruntimeconfig.cache
