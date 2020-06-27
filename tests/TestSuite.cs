@@ -1,6 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Test_Automation.tests;
-using System;
 
 namespace Test_Automation
 {
@@ -10,7 +9,7 @@ namespace Test_Automation
         [TestMethod]
         public void TestMethod1()
         {
-
+            
         }
     }
 }
