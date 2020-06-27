@@ -47,7 +47,7 @@ namespace Test_Automation.tests
                     testReport.Log(Status.Pass, testname + " Passed");
                     break;
                 default:
-                    testReport.Log(Status.Error,"Error occured");
+                    testReport.Log(Status.Error, "Error occured");
                     break;
             }
             TestReport.closeReport();
