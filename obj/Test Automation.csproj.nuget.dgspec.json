@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj": {}
+    "C:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj": {
+    "C:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj",
+        "projectUniqueName": "C:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj",
         "projectName": "Test Automation",
-        "projectPath": "c:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj",
+        "projectPath": "C:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj",
         "packagesPath": "C:\\Users\\Sihle\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\obj\\",
+        "outputPath": "C:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sihle\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -60,9 +60,25 @@
               "target": "Package",
               "version": "[16.2.0, )"
             },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "SeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "System.Data.OleDb": {
               "target": "Package",
               "version": "[4.7.1, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.9.1, )"
             },
             "WycliffeAssociates.NPOI": {
               "target": "Package",
