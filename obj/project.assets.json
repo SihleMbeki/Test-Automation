@@ -8958,11 +8958,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj",
+      "projectUniqueName": "c:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj",
       "projectName": "Test Automation",
-      "projectPath": "C:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj",
+      "projectPath": "c:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj",
       "packagesPath": "C:\\Users\\Sihle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\obj\\",
+      "outputPath": "c:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sihle\\AppData\\Roaming\\NuGet\\NuGet.Config"

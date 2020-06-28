@@ -111,7 +111,7 @@ namespace Test_Automation.utilities
         {
             //Wait until the element is present
             try{
-            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(9));
             var element = wait.Until(driver=>driver.FindElement(By.XPath(xpath)));
             return true;
             }catch(System.Exception){

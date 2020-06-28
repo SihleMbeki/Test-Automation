@@ -7,9 +7,11 @@ using Test_Automation.utilities;
 
 namespace Test_Automation
 {
+   
     [TestClass]
     public class TestSuite : BaseTest
     {
+      
         /*
         //Call to data provider method
         //The called method returns enumerable object providing data for each run
@@ -18,13 +20,15 @@ namespace Test_Automation
         [DynamicData((nameof(getExcelData)), DynamicDataSourceType.Method)]
         public void excelDataTest(Hashtable table)
         {
+            //Test page instance
             UserListTable userTableList = new UserListTable();
             userTableList.testData(table);
+            //Execute test steps
             userTableList.executeTest();
         }
         [DataTestMethod]
         [DynamicData((nameof(getAccessData)), DynamicDataSourceType.Method)]
-         public void accessDataTest(Hashtable table)
+        public void accessDataTest(Hashtable table)
         {
             UserListTable userTableList = new UserListTable();
             userTableList.testData(table);

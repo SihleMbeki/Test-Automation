@@ -86,6 +86,15 @@ namespace Test_Automation.Pages
             this.cell = (string)testData[5];
             this.userPassword = (string)testData[6];
             this.customerType = (string)testData[7];
+
+            //Verify that the username is unique
+            if(!users.Contains(userName)){
+            users.Add(userName);
+            }else{
+            testReport.Log(Status.Fail, "Username already used");
+            Assert.Fail();
+
+            }
         }
         public void executeTest()
         {

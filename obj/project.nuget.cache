@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RwCwYgmLV16/Y2CYaXoi+L6CcD1X2p69/Dc2WmQbwoxd2M4OVX9r50oLuKZRETPkOWpW4+PKCkKhodA7B0o0ZA==",
+  "dgSpecHash": "OfIL1OTwWefB4QcKmmIVnPbl1EgACyepJvkeU/y2bW2iWt7QjQ+7xZ4FgKIMM4YsFhCu7D/dEwObNwxonNM4zg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj",
+  "projectFilePath": "c:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sihle\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\Sihle\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
@@ -156,9 +156,9 @@
     "C:\\Users\\Sihle\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\Sihle\\.nuget\\packages\\webdrivermanager\\2.9.1\\webdrivermanager.2.9.1.nupkg.sha512",
     "C:\\Users\\Sihle\\.nuget\\packages\\wycliffeassociates.npoi\\2.4.1\\wycliffeassociates.npoi.2.4.1.nupkg.sha512",
-    "C:\\Users\\Sihle\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
     "C:\\Users\\Sihle\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
-    "C:\\Users\\Sihle\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+    "C:\\Users\\Sihle\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Sihle\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
   ],
   "logs": [
     {
