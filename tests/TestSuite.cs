@@ -34,7 +34,7 @@ namespace Test_Automation
             userTableList.testData(table);
             userTableList.executeTest();
         }
-        public static IEnumerable<object[]> getAccessData()
+        private static IEnumerable<object[]> getAccessData()
         {
             AccessDataProvider testdata = new AccessDataProvider();
             //Iterate through retrieved table rows
@@ -43,7 +43,7 @@ namespace Test_Automation
                 yield return new object[] { row };
             }
         }
-        public static IEnumerable<object[]> getExcelData()
+        private static IEnumerable<object[]> getExcelData()
         {
             ExcelDataProvider testdata = new ExcelDataProvider();
             //Iterate through retrieved spreadsheet rows
