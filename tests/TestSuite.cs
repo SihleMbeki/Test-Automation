@@ -22,6 +22,14 @@ namespace Test_Automation
             userTableList.testData(table);
             userTableList.executeTest();
         }
+        [DataTestMethod]
+        [DynamicData((nameof(getAccessData)), DynamicDataSourceType.Method)]
+         public void accessDataTest(Hashtable table)
+        {
+            UserListTable userTableList = new UserListTable();
+            userTableList.testData(table);
+            userTableList.executeTest();
+        }
         public static IEnumerable<object[]> getAccessData()
         {
             AccessDataProvider testdata = new AccessDataProvider();
