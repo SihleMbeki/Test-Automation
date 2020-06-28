@@ -893,16 +893,16 @@
           "lib/netstandard2.0/WebDriver.dll": {}
         }
       },
-      "SeleniumExtras.WaitHelpers/1.0.0": {
+      "Selenium.WebDriverBackedSelenium/3.141.0": {
         "type": "package",
         "dependencies": {
-          "Selenium.WebDriver": "4.0.0-alpha04"
+          "Selenium.WebDriver": "3.141.0"
         },
         "compile": {
-          "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {}
+          "lib/netstandard2.0/Selenium.WebDriverBackedSelenium.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {}
+          "lib/netstandard2.0/Selenium.WebDriverBackedSelenium.dll": {}
         }
       },
       "SharpZipLib/1.2.0": {
@@ -4032,17 +4032,23 @@
         "selenium.webdriver.nuspec"
       ]
     },
-    "SeleniumExtras.WaitHelpers/1.0.0": {
-      "sha512": "m553Yoq1x0cYd2kL95f8JNtMblRl6oBAKtB/AX6ZmH6T8XpNQ1mmgUyTafVwDhMKAiNtlpoGQdJ8wAVMIAXpqg==",
+    "Selenium.WebDriverBackedSelenium/3.141.0": {
+      "sha512": "pCSxJq4IJ/CqbvtNarxudtVl3tULJU958ZX795nimJF+44djMIa2kj7c8MEaXLscQyRl43XEV2JWKW8iVj10Ag==",
       "type": "package",
-      "path": "seleniumextras.waithelpers/1.0.0",
+      "path": "selenium.webdriverbackedselenium/3.141.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.txt",
-        "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll",
-        "seleniumextras.waithelpers.1.0.0.nupkg.sha512",
-        "seleniumextras.waithelpers.nuspec"
+        "lib/net35/Selenium.WebDriverBackedSelenium.dll",
+        "lib/net35/Selenium.WebDriverBackedSelenium.xml",
+        "lib/net40/Selenium.WebDriverBackedSelenium.dll",
+        "lib/net40/Selenium.WebDriverBackedSelenium.xml",
+        "lib/net45/Selenium.WebDriverBackedSelenium.dll",
+        "lib/net45/Selenium.WebDriverBackedSelenium.xml",
+        "lib/netstandard2.0/Selenium.WebDriverBackedSelenium.dll",
+        "lib/netstandard2.0/Selenium.WebDriverBackedSelenium.xml",
+        "selenium.webdriverbackedselenium.3.141.0.nupkg.sha512",
+        "selenium.webdriverbackedselenium.nuspec"
       ]
     },
     "SharpZipLib/1.2.0": {
@@ -8939,7 +8945,7 @@
       "Microsoft.NET.Test.Sdk >= 16.2.0",
       "Selenium.Support >= 3.141.0",
       "Selenium.WebDriver >= 3.141.0",
-      "SeleniumExtras.WaitHelpers >= 1.0.0",
+      "Selenium.WebDriverBackedSelenium >= 3.141.0",
       "System.Data.OleDb >= 4.7.1",
       "WebDriverManager >= 2.9.1",
       "WycliffeAssociates.NPOI >= 2.4.1",
@@ -9013,9 +9019,9 @@
             "target": "Package",
             "version": "[3.141.0, )"
           },
-          "SeleniumExtras.WaitHelpers": {
+          "Selenium.WebDriverBackedSelenium": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[3.141.0, )"
           },
           "System.Data.OleDb": {
             "target": "Package",
@@ -9084,15 +9090,6 @@
       "warningLevel": 1,
       "message": "Package 'DatabaseConnections.OleDb 2.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
       "libraryId": "DatabaseConnections.OleDb",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Selenium.WebDriver from 4.0.0-alpha04 to 3.141.0. Reference the package directly from the project to select a different version. \r\n Test Automation -> SeleniumExtras.WaitHelpers 1.0.0 -> Selenium.WebDriver (>= 4.0.0-alpha04) \r\n Test Automation -> Selenium.WebDriver (>= 3.141.0)",
-      "libraryId": "Selenium.WebDriver",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.0"
       ]

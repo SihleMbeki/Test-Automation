@@ -70,6 +70,18 @@ namespace Test_Automation.utilities
                 return null;
             }
         }
+        public bool clickElementByXpath(String xpath)
+        {
+            try
+            {
+               driver.FindElement(By.XPath(xpath)).Click();
+               return true;
+            }
+            catch (System.Exception)
+            {
+               return false;
+            }
+        }
         public bool SendKeys(string css, string text)
         {
             try
@@ -88,30 +100,23 @@ namespace Test_Automation.utilities
             {
                 var selection = new SelectElement(select);
                 selection.SelectByText(option);
+                return true;
             }
             catch (System.Exception)
             {
                 return false;
             }
-            return true;
         }
         public bool waitForElement(string xpath)
         {
             //Wait until the element is present
+            try{
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
-            var element = wait.Until(condition =>
-            {
-                try
-                {
-                     var elementToBeDisplayed = driver.FindElement(By.XPath(xpath));
-                     return elementToBeDisplayed.Displayed;//return true if element is visible
-                }
-                catch (NoSuchElementException)
-                {
-                     return false;
-                    }
-                });
-            return element;
+            var element = wait.Until(driver=>driver.FindElement(By.XPath(xpath)));
+            return true;
+            }catch(System.Exception){
+                return false;
+            }
         }
     }
 }

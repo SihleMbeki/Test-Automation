@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Test_Automation.Pages;
 using Test_Automation.tests;
 using Test_Automation.utilities;
 
@@ -15,9 +16,11 @@ namespace Test_Automation
         */
         [DataTestMethod]
         [DynamicData((nameof(getExcelData)), DynamicDataSourceType.Method)]
-        public void TestMethod1(Hashtable table)
+        public void excelDataTest(Hashtable table)
         {
-            testReport.Pass((string)table[0]);
+            UserListTable userTableList = new UserListTable();
+            userTableList.testData(table);
+            userTableList.executeTest();
         }
         public static IEnumerable<object[]> getAccessData()
         {

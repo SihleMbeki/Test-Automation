@@ -16,6 +16,7 @@
           "Microsoft.NET.Test.Sdk": "16.2.0",
           "Selenium.Support": "3.141.0",
           "Selenium.WebDriver": "3.141.0",
+          "Selenium.WebDriverBackedSelenium": "3.141.0",
           "System.Data.OleDb": "4.7.1",
           "WebDriverManager": "2.9.1",
           "WycliffeAssociates.NPOI": "2.4.1",
@@ -725,6 +726,17 @@
         },
         "runtime": {
           "lib/netstandard2.0/WebDriver.dll": {
+            "assemblyVersion": "3.141.0.0",
+            "fileVersion": "3.141.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriverBackedSelenium/3.141.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Selenium.WebDriverBackedSelenium.dll": {
             "assemblyVersion": "3.141.0.0",
             "fileVersion": "3.141.0.0"
           }
@@ -2292,6 +2304,13 @@
       "sha512": "sha512-wPqzXO3f79DzqauTZSzLMKiaBCN0Z2Mv7KvWP+hnV6EL88zh/pJJnFtdIR1X5wa3hsTOpF/bBJs45rz7kArsiA==",
       "path": "selenium.webdriver/3.141.0",
       "hashPath": "selenium.webdriver.3.141.0.nupkg.sha512"
+    },
+    "Selenium.WebDriverBackedSelenium/3.141.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pCSxJq4IJ/CqbvtNarxudtVl3tULJU958ZX795nimJF+44djMIa2kj7c8MEaXLscQyRl43XEV2JWKW8iVj10Ag==",
+      "path": "selenium.webdriverbackedselenium/3.141.0",
+      "hashPath": "selenium.webdriverbackedselenium.3.141.0.nupkg.sha512"
     },
     "SharpZipLib/1.2.0": {
       "type": "package",

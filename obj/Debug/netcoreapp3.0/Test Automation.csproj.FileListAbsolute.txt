@@ -138,3 +138,4 @@ c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\AngleS
 c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\WebDriver.Support.dll
 c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\WebDriver.dll
 c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\WebDriverManager.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\Selenium.WebDriverBackedSelenium.dll

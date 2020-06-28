@@ -13,10 +13,10 @@ namespace Test_Automation.tests
     public class BaseTest
     {
         //create webdriver instance
-        protected WebDriverInstance driver;
+        protected static WebDriverInstance driver;
         //Set universal directory for the current test run
         public static string directory;
-        protected ExtentTest testReport { get; set; }
+        protected static ExtentTest testReport { get; set; }
         //Set test variable for the test and action child classes
         protected string testname;
         public TestContext TestContext { get; set; }
@@ -35,7 +35,7 @@ namespace Test_Automation.tests
             //create chrome browser instance
             driver = new WebDriverInstance();
             driver.createWebDriver();
-            driver.getDriver().Navigate().GoToUrl("https://www.google.com/");
+            driver.getDriver().Navigate().GoToUrl("http://www.way2automation.com/angularjs-protractor/webtables/");
             driver.getDriver().Manage().Window.Maximize();
 
             //retrieve new test instance

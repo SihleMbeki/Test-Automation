@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "HsiKmSG0G92MV6SHkQ/9hPZDZV6nnFK3heZAF9TaCNuk66ZL3GPP5iDvtGXp/T1F7tjINKFin6rq43IYsnx5Ag==",
-  "success": false,
+  "dgSpecHash": "RwCwYgmLV16/Y2CYaXoi+L6CcD1X2p69/Dc2WmQbwoxd2M4OVX9r50oLuKZRETPkOWpW4+PKCkKhodA7B0o0ZA==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Sihle\\Documents\\Audacity\\Test Automation\\Test Automation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sihle\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
@@ -54,7 +54,7 @@
     "C:\\Users\\Sihle\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\Sihle\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
     "C:\\Users\\Sihle\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
-    "C:\\Users\\Sihle\\.nuget\\packages\\seleniumextras.waithelpers\\1.0.0\\seleniumextras.waithelpers.1.0.0.nupkg.sha512",
+    "C:\\Users\\Sihle\\.nuget\\packages\\selenium.webdriverbackedselenium\\3.141.0\\selenium.webdriverbackedselenium.3.141.0.nupkg.sha512",
     "C:\\Users\\Sihle\\.nuget\\packages\\sharpziplib\\1.2.0\\sharpziplib.1.2.0.nupkg.sha512",
     "C:\\Users\\Sihle\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\Sihle\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
@@ -177,15 +177,6 @@
       "warningLevel": 1,
       "message": "Package 'DatabaseConnections.OleDb 2.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
       "libraryId": "DatabaseConnections.OleDb",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Selenium.WebDriver from 4.0.0-alpha04 to 3.141.0. Reference the package directly from the project to select a different version. \r\n Test Automation -> SeleniumExtras.WaitHelpers 1.0.0 -> Selenium.WebDriver (>= 4.0.0-alpha04) \r\n Test Automation -> Selenium.WebDriver (>= 3.141.0)",
-      "libraryId": "Selenium.WebDriver",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.0"
       ]

@@ -68,9 +68,9 @@
               "target": "Package",
               "version": "[3.141.0, )"
             },
-            "SeleniumExtras.WaitHelpers": {
+            "Selenium.WebDriverBackedSelenium": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[3.141.0, )"
             },
             "System.Data.OleDb": {
               "target": "Package",
