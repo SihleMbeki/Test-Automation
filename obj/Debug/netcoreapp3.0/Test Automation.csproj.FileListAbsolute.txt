@@ -134,3 +134,7 @@ c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\runtim
 c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\AngleSharp.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\WebDriver.Support.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\WebDriver.dll
+c:\Users\Sihle\Documents\Audacity\Test Automation\bin\Debug\netcoreapp3.0\WebDriverManager.dll
