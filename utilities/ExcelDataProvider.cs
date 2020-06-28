@@ -31,7 +31,10 @@ namespace Test_Automation.utilities
                 //Iterate through sheet rows
                 foreach (IRow row in sheet)
                 {
-                    //new hash table to store row cells data
+                    //new Hashtable to store row cells data
+                    if(row.RowNum==0){
+                        continue;
+                    }
                     items = new Hashtable();
                     for (int cell = 0; cell < row.LastCellNum; cell++)
                     {

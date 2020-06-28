@@ -1,23 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Test_Automation.Pages;
 using Test_Automation.tests;
 using Test_Automation.utilities;
 
 namespace Test_Automation
 {
+   
     [TestClass]
     public class TestSuite : BaseTest
     {
+      
         /*
         //Call to data provider method
         //The called method returns enumerable object providing data for each run
         */
         [DataTestMethod]
         [DynamicData((nameof(getExcelData)), DynamicDataSourceType.Method)]
-        public void TestMethod1(Hashtable table)
+        public void excelDataTest(Hashtable table)
         {
-            testReport.Pass((string)table[0]);
+            //Test page instance
+            UserListTable userTableList = new UserListTable();
+            userTableList.testData(table);
+            //Execute test steps
+            userTableList.executeTest();
+        }
+        [DataTestMethod]
+        [DynamicData((nameof(getAccessData)), DynamicDataSourceType.Method)]
+        public void accessDataTest(Hashtable table)
+        {
+            UserListTable userTableList = new UserListTable();
+            userTableList.testData(table);
+            userTableList.executeTest();
         }
         public static IEnumerable<object[]> getAccessData()
         {

@@ -2,6 +2,7 @@ using AventStack.ExtentReports;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using System;
+using System.Collections;
 using Test_Automation.utilities;
 
 /*
@@ -13,12 +14,13 @@ namespace Test_Automation.tests
     public class BaseTest
     {
         //create webdriver instance
-        protected WebDriverInstance driver;
+        protected static WebDriverInstance driver;
         //Set universal directory for the current test run
         public static string directory;
-        protected ExtentTest testReport { get; set; }
+        protected static ExtentTest testReport { get; set; }
         //Set test variable for the test and action child classes
         protected string testname;
+        protected static ArrayList users;
         public TestContext TestContext { get; set; }
         [TestInitialize]
         public void setup()
@@ -26,16 +28,21 @@ namespace Test_Automation.tests
             //Extract test name to be used in the report
             testname = TestContext.TestName;
             //verify that the directory is not created by first test iteration
-            if(directory==null){
-            directory = Environment.CurrentDirectory + @"\..\..\..\reports\";
-            directory += DateTime.Now.ToString("dd MM yyyy HH:mm:ss").Replace(":", "_").Replace(" ", "_");
-            System.IO.Directory.CreateDirectory(directory);
+            if (directory == null)
+            {
+                directory = Environment.CurrentDirectory + @"\..\..\..\reports\";
+                directory += DateTime.Now.ToString("dd MM yyyy HH:mm:ss").Replace(":", "_").Replace(" ", "_");
+                System.IO.Directory.CreateDirectory(directory);
             }
 
+            //Will capture all used username
+            if(users==null)
+            users=new ArrayList();
+            
             //create chrome browser instance
             driver = new WebDriverInstance();
             driver.createWebDriver();
-            driver.getDriver().Navigate().GoToUrl("https://www.google.com/");
+            driver.getDriver().Navigate().GoToUrl("http://www.way2automation.com/angularjs-protractor/webtables/");
             driver.getDriver().Manage().Window.Maximize();
 
             //retrieve new test instance
@@ -53,11 +60,11 @@ namespace Test_Automation.tests
             switch (testResult)
             {
                 case UnitTestOutcome.Failed:
-                    testReport.Log(Status.Fail, testname + " Failed");
+                    testReport.Fail("Failed", MediaEntityBuilder.CreateScreenCaptureFromPath(driver.screenShot()).Build());
                     break;
                 case UnitTestOutcome.Passed:
                     testReport.Log(Status.Pass, testname + " Passed");
-                     testReport.Pass("Passed",MediaEntityBuilder.CreateScreenCaptureFromPath(driver.screenShot()).Build());
+                    testReport.Pass("Passed", MediaEntityBuilder.CreateScreenCaptureFromPath(driver.screenShot()).Build());
                     break;
                 default:
                     testReport.Log(Status.Error, "Error occured");
