@@ -36,16 +36,11 @@ namespace Test_Automation.utilities
                 //Iterate through table rows
                 while (reader.Read())
                 {
-                    items=new Hashtable();
+                    items = new Hashtable();
                     //retrieve column data
                     items.Add(0, reader[1].ToString());
                     items.Add(1, reader[2].ToString());
                     items.Add(2, reader[3].ToString());
-                    items.Add(3, reader[4].ToString());
-                    items.Add(4, reader[5].ToString());
-                    items.Add(5, reader[6].ToString());
-                    items.Add(6, reader[7].ToString());
-                    items.Add(7, reader[8].ToString());
                     rowItems.Add(items);
                 }
             }
