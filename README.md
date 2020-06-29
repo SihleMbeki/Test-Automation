@@ -13,7 +13,7 @@ User table list automation script ,framework and test data. CSharp is used as pr
 
 Site Link:[User List Table](http://www.way2automation.com/angularjs-protractor/webtables/)
 
-System use case draft:
+System use case :
 
 ![](http://publicdeals.co.za/2020-06-28_18h26_26.png)
 
@@ -26,18 +26,21 @@ The framework is developed using c# and selenium for automating user interface,T
 Installation steps are as follows:
 
 1. Install visual studio code, Available here :https://visualstudio.microsoft.com/vs/community/
+
 2. Clone or download the source code here https://github.com/SihleMbeki/Test-Automation.git
+
 3. Must have .NET Core 3.0 installed ,SDK download available here https://dotnet.microsoft.com/download/visual-studio-sdks
-4. Open the project in Visual Studio Code
+
+4. Open the project in Visual Studio Codez<br/>
    ![](http://publicdeals.co.za/2020-06-28_18h34_27.png)
 
-3. Install the following extensions
+5. Install the following extensions
    ![](http://publicdeals.co.za/2020-06-28_18h45_01.png)
 
-4. Open Test Explore highlighted by a circle in the following screenshot, you should be able to see the current test items.
+6. Open Test Explore highlighted by a circle in the following screenshot, you should be able to see the current test items.
    ![](http://publicdeals.co.za/2020-06-28_18h43_39.png)
 
-5. Execute tests
+7. Execute tests
 
    ![](http://publicdeals.co.za/execution.gif)
 
