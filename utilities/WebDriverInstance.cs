@@ -4,6 +4,7 @@ using System;
 using Test_Automation.tests;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium.Support.UI;
+using OpenQA.Selenium.Interactions;
 
 /*
 //Create chrome driver instance for launching the browser application
@@ -74,12 +75,24 @@ namespace Test_Automation.utilities
         {
             try
             {
-               driver.FindElement(By.XPath(xpath)).Click();
-               return true;
+                driver.FindElement(By.XPath(xpath)).Click();
+                return true;
             }
             catch (System.Exception)
             {
-               return false;
+                return false;
+            }
+        }
+        public bool clickElementByCss(String css)
+        {
+            try
+            {
+                driver.FindElement(By.CssSelector(css)).Click();
+                return true;
+            }
+            catch (System.Exception)
+            {
+                return false;
             }
         }
         public bool SendKeys(string css, string text)
@@ -107,14 +120,47 @@ namespace Test_Automation.utilities
                 return false;
             }
         }
+        public bool scrollToElement(string xpath)
+        {
+            try
+            {
+                IWebElement element = driver.FindElement(By.XPath(xpath));
+                Actions actions = new Actions(driver);
+                actions.MoveToElement(element);
+                actions.Perform();
+                return true;
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
+        }
         public bool waitForElement(string xpath)
         {
             //Wait until the element is present
-            try{
-            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(9));
-            var element = wait.Until(driver=>driver.FindElement(By.XPath(xpath)));
-            return true;
-            }catch(System.Exception){
+            try
+            {
+                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
+                var element = wait.Until(driver => driver.FindElement(By.XPath(xpath)));
+                return true;
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
+        }
+
+        public bool waitForElementByCss(string css)
+        {
+            //Wait until the element is present
+            try
+            {
+                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
+                var element = wait.Until(driver => driver.FindElement(By.CssSelector(css)));
+                return true;
+            }
+            catch (System.Exception)
+            {
                 return false;
             }
         }

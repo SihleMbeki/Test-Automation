@@ -42,7 +42,7 @@ namespace Test_Automation.tests
             //create chrome browser instance
             driver = new WebDriverInstance();
             driver.createWebDriver();
-            driver.getDriver().Navigate().GoToUrl("http://www.way2automation.com/angularjs-protractor/webtables/");
+            driver.getDriver().Navigate().GoToUrl("https://www.ilabquality.com/");
             driver.getDriver().Manage().Window.Maximize();
 
             //retrieve new test instance
@@ -64,7 +64,7 @@ namespace Test_Automation.tests
                     break;
                 case UnitTestOutcome.Passed:
                     testReport.Log(Status.Pass, testname + " Passed");
-                    testReport.Pass("Passed", MediaEntityBuilder.CreateScreenCaptureFromPath(driver.screenShot()).Build());
+                    testReport.Pass("Screenshot", MediaEntityBuilder.CreateScreenCaptureFromPath(driver.screenShot()).Build());
                     break;
                 default:
                     testReport.Log(Status.Error, "Error occured");
